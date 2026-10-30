@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>QoL: Child Learning</name>
+  <author>ZCN</author>
+  <packageId>zcn.qol.childlearning</packageId>
+
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+
+  <description>
+Requires Harmony and Biotech.
+
+QoL: Child Learning is a QoL mod that helps you manage children's learning.
+
+This mod does not change RimWorld's vanilla learning system, learning rate, growth points, or growth tier mechanics.
+
+Main features:
+- Displays the learning percentage on child portraits.
+- Alerts you when a reading learning desire becomes available.
+- Automatically wakes children when their learning falls below a configurable threshold.
+- Optionally prioritizes eating when hunger falls below a configurable threshold.
+
+
+Harmony와 Biotech가 필요합니다.
+
+QoL: Child Learning은 아이들의 학습 관리를 도와주는 편의성 모드입니다.
+
+이 모드는 림월드 바닐라의 학습 시스템, 학습 속도, 성장 점수 또는 성장 티어 구조를 변경하지 않습니다.
+
+주요 기능:
+- 초상화에 학습 수치 표시.
+- 독서 학습 욕구 발생 시 알림 기능.
+- 설정한 학습 수치 이하에서 자동 기상.
+- 설정한 허기 수치 이하에서 선택적 식사 우선 기능.
+
+  </description>
+</ModMetaData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Your local RimWorld 1.6 install path. Example: C:\Games\RimWorld -->
+    <RimWorldDir>C:\Games\RimWorld</RimWorldDir>
+    <!-- The 0Harmony.dll distributed with Harmony mod for RimWorld 1.6. -->
+    <HarmonyDllPath>C:\Games\RimWorldHarmony\0Harmony.dll</HarmonyDllPath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ZCNCL_CurrentValue>Current value: </ZCNCL_CurrentValue>
+  <ZCNCL_AlertsTitle>Reading desire alerts &amp; portrait icon</ZCNCL_AlertsTitle>
+  <ZCNCL_ShowReadingIcon>Show reading icon on portraits</ZCNCL_ShowReadingIcon>
+  <ZCNCL_LargeReadingIcon>Enlarge portrait reading icon</ZCNCL_LargeReadingIcon>
+  <ZCNCL_ReadingIconSizeNormal>Normal size (default)</ZCNCL_ReadingIconSizeNormal>
+  <ZCNCL_ReadingIconSizeLarge>Large size</ZCNCL_ReadingIconSizeLarge>
+  <ZCNCL_ReadingIconPosition>Reading icon position</ZCNCL_ReadingIconPosition>
+  <ZCNCL_PositionTopRight>Top-right (default)</ZCNCL_PositionTopRight>
+  <ZCNCL_PositionTopLeft>Top-left</ZCNCL_PositionTopLeft>
+  <ZCNCL_PositionBottomRight>Bottom-right</ZCNCL_PositionBottomRight>
+  <ZCNCL_PositionBottomLeft>Bottom-left</ZCNCL_PositionBottomLeft>
+  <ZCNCL_PositionCenter>Center</ZCNCL_PositionCenter>
+  <ZCNCL_PositionLowerCenter>Lower-center (chest)</ZCNCL_PositionLowerCenter>
+  <ZCNCL_PlayReadingSound>Reading alert sound</ZCNCL_PlayReadingSound>
+  <ZCNCL_NotificationSound>Notification sound</ZCNCL_NotificationSound>
+  <ZCNCL_PreviewSound>Preview selected sound</ZCNCL_PreviewSound>
+  <ZCNCL_ShowReadingMessage>Reading alert message</ZCNCL_ShowReadingMessage>
+  <ZCNCL_ReadingMessageDescription>Independent of sound. Only new Reading desire activations; multiple children in one scan share one message. No pop-up letter or forced pause.</ZCNCL_ReadingMessageDescription>
+  <ZCNCL_LearningTitle>Child Learning</ZCNCL_LearningTitle>
+  <ZCNCL_ShowLearningPercent>Show Learning number instead of portrait name</ZCNCL_ShowLearningPercent>
+  <ZCNCL_LearningPercentDescription>Children only; displays 0-100 (floored). Does not change pawn names.</ZCNCL_LearningPercentDescription>
+  <ZCNCL_LearningNumberSize>Learning number size: </ZCNCL_LearningNumberSize>
+  <ZCNCL_DefaultSuffix>(default)</ZCNCL_DefaultSuffix>
+  <ZCNCL_LearningNumberSizeDescription>100% (default) / 125% / 150%. New 100% keeps the previous default text size; large text may overlap on very small colonist bars.</ZCNCL_LearningNumberSizeDescription>
+  <ZCNCL_HighlightLearning>Highlight number while learning</ZCNCL_HighlightLearning>
+  <ZCNCL_HighlightLearningDescription>Includes learning at 100%; color fades about 120 ticks after learning stops.</ZCNCL_HighlightLearningDescription>
+  <ZCNCL_HighlightColor>Active Learning number highlight color</ZCNCL_HighlightColor>
+  <ZCNCL_ColorYellow>Golden yellow</ZCNCL_ColorYellow>
+  <ZCNCL_ColorCyan>Bright cyan (default)</ZCNCL_ColorCyan>
+  <ZCNCL_ColorMagenta>Bright magenta</ZCNCL_ColorMagenta>
+  <ZCNCL_ColorOrange>Vivid orange</ZCNCL_ColorOrange>
+  <ZCNCL_ColorBlue>Light blue</ZCNCL_ColorBlue>
+  <ZCNCL_AutoWakeTitle>Automatic child wake-up</ZCNCL_AutoWakeTitle>
+  <ZCNCL_AutoWakeToggle>Automatic wake-up</ZCNCL_AutoWakeToggle>
+  <ZCNCL_AutoWakeDescription>Only sleeping, undrafted children. Medical beds, downed pawns and mental breaks are excluded.</ZCNCL_AutoWakeDescription>
+  <ZCNCL_WakeLearningThreshold>Wake at Learning ≤ (%) [0–100]</ZCNCL_WakeLearningThreshold>
+  <ZCNCL_MinimumRestThreshold>Minimum Rest (%) [38–100]</ZCNCL_MinimumRestThreshold>
+  <ZCNCL_MinimumRestDescription>Minimum Rest can be set to 38.0% or higher. Medical safety checks remain active.</ZCNCL_MinimumRestDescription>
+  <ZCNCL_WakeCooldown>Wake cooldown (game hours) [0–24]</ZCNCL_WakeCooldown>
+  <ZCNCL_WakeCooldownDescription>0 hours removes the successful-wake cooldown; failed-attempt safeguards remain.</ZCNCL_WakeCooldownDescription>
+  <ZCNCL_EarlyWakeDescription>If vanilla selects Sleep again, an early wake may wait until Learning is below 90%. This setting initiates a wake attempt; it does not guarantee staying awake.</ZCNCL_EarlyWakeDescription>
+  <ZCNCL_AutoEatTitle>Independent child auto-eat (EF1)</ZCNCL_AutoEatTitle>
+  <ZCNCL_AutoEatToggle>Auto eating assist (at job changes)</ZCNCL_AutoEatToggle>
+  <ZCNCL_AutoEatDescription>Does not interrupt the current job; prioritizes meals when choosing the next job.</ZCNCL_AutoEatDescription>
+  <ZCNCL_EatFoodThreshold>Prioritize food when Food ≤ (%) [34–100]</ZCNCL_EatFoodThreshold>
+  <ZCNCL_LegacyEatToggle>Legacy: eat after mod-triggered wake</ZCNCL_LegacyEatToggle>
+  <ZCNCL_LegacyEatDescription>Old wake-only option retained for existing saves. EF1 supersedes this option while independent eating is enabled.</ZCNCL_LegacyEatDescription>
+  <ZCNCL_DebugLogging>Debug logging</ZCNCL_DebugLogging>
+  <ZCNCL_SoundTinyBell>Tiny bell</ZCNCL_SoundTinyBell>
+  <ZCNCL_SoundSubtleTick>Subtle tick</ZCNCL_SoundSubtleTick>
+  <ZCNCL_SoundClearAlert>Clear alert</ZCNCL_SoundClearAlert>
+  <ZCNCL_SoundPositive>positive event (default)</ZCNCL_SoundPositive>
+  <ZCNCL_SoundNeutral>neutral event</ZCNCL_SoundNeutral>
+  <ZCNCL_TabReadingAlerts>Reading alerts</ZCNCL_TabReadingAlerts>
+  <ZCNCL_TabLearning>Child Learning</ZCNCL_TabLearning>
+  <ZCNCL_RestoreAlertsDefaults>Restore Reading Alerts Defaults</ZCNCL_RestoreAlertsDefaults>
+  <ZCNCL_RestoreLearningDefaults>Restore Learning Defaults</ZCNCL_RestoreLearningDefaults>
+  <ZCNCL_DisableAlertsFeatures>Disable Reading Alerts Features</ZCNCL_DisableAlertsFeatures>
+  <ZCNCL_DisableLearningFeatures>Disable Learning Features</ZCNCL_DisableLearningFeatures>
+  <ZCNCL_ConfirmRestoreDefaults>Restore defaults for this tab only? The other tab is unchanged.</ZCNCL_ConfirmRestoreDefaults>
+  <ZCNCL_ConfirmDisableFeatures>Disable features in this tab only? Saved values and the other tab remain unchanged.</ZCNCL_ConfirmDisableFeatures>
+  <ZCNCL_DefaultsRestored>Defaults restored and saved.</ZCNCL_DefaultsRestored>
+  <ZCNCL_FeaturesDisabled>Features disabled and saved.</ZCNCL_FeaturesDisabled>
+  <ZCNCL_IconPreviewTitle>Live icon preview</ZCNCL_IconPreviewTitle>
+  <ZCNCL_IconPreviewColonist>Example child</ZCNCL_IconPreviewColonist>
+  <ZCNCL_IconPreviewDisclaimer>Illustration only. No real learning desire is changed.</ZCNCL_IconPreviewDisclaimer>
+  <ZCNCL_IconPreviewDisabled>Reading icon hidden (OFF).</ZCNCL_IconPreviewDisabled>
+  <ZCNCL_HighlightPreviewTitle>Learning color preview</ZCNCL_HighlightPreviewTitle>
+  <ZCNCL_GizmoLabel>Child controls</ZCNCL_GizmoLabel>
+  <ZCNCL_GizmoDescription>Control allowed learning-assist features for this child. Global settings always take precedence.</ZCNCL_GizmoDescription>
+  <ZCNCL_GizmoReading>Reading icon and alerts</ZCNCL_GizmoReading>
+  <ZCNCL_GizmoWake>Automatic wake-up</ZCNCL_GizmoWake>
+  <ZCNCL_GizmoFood>Automatic eating assist</ZCNCL_GizmoFood>
+  <ZCNCL_GizmoGlobalNote>Global permission: if enabled here, each child can still toggle the feature with its own gizmo.</ZCNCL_GizmoGlobalNote>
+  <ZCNCL_GizmoReadingLabel>Reading alerts</ZCNCL_GizmoReadingLabel>
+  <ZCNCL_GizmoReadingDescription>A notification appears when a reading learning desire becomes active.&#10;&#10;A reading icon appears on the child's portrait while the desire is active.</ZCNCL_GizmoReadingDescription>
+  <ZCNCL_GizmoWakeLabel>Auto wake</ZCNCL_GizmoWakeLabel>
+  <ZCNCL_GizmoWakeDescription>When a sleeping child's Learning is at or below {0}%, the mod attempts to wake them.&#10;&#10;You can review the conditions for auto-wake in the mod settings.&#10;&#10;You can change the Learning threshold in the mod settings.</ZCNCL_GizmoWakeDescription>
+  <ZCNCL_GizmoFoodLabel>Auto eat</ZCNCL_GizmoFoodLabel>
+  <ZCNCL_GizmoFoodDescription>Children with a Food level of {0}% or lower go to eat.&#10;&#10;You can review the conditions for automatic eating in the mod settings.&#10;&#10;You can change the Food threshold in the mod settings.</ZCNCL_GizmoFoodDescription>
+  <ZCNCL_TabGizmoDefaults>Gizmo defaults</ZCNCL_TabGizmoDefaults>
+  <ZCNCL_GizmoDefaultsTitle>Default child controls</ZCNCL_GizmoDefaultsTitle>
+  <ZCNCL_GizmoDefaultsScope>New children only. Existing children keep their settings. Global OFF hides the corresponding gizmo.</ZCNCL_GizmoDefaultsScope>
+  <ZCNCL_GizmoDefaultReading>Reading icon and alerts</ZCNCL_GizmoDefaultReading>
+  <ZCNCL_GizmoDefaultReadingHint>Includes reading icon, sound and activation message. Each global setting must also allow its part.</ZCNCL_GizmoDefaultReadingHint>
+  <ZCNCL_GizmoDefaultWake>Automatic wake-up</ZCNCL_GizmoDefaultWake>
+  <ZCNCL_GizmoDefaultWakeHint>New children do not receive automatic wake-up unless enabled here or with their individual gizmo.</ZCNCL_GizmoDefaultWakeHint>
+  <ZCNCL_GizmoDefaultFood>Automatic eating assist</ZCNCL_GizmoDefaultFood>
+  <ZCNCL_GizmoDefaultFoodHint>Vanilla automatic eating remains active when this is OFF.</ZCNCL_GizmoDefaultFoodHint>
+  <ZCNCL_GizmoDefaultsGlobalPriority>Global feature switches always take precedence. Changing these defaults never changes existing children.</ZCNCL_GizmoDefaultsGlobalPriority>
+  <ZCNCL_RestoreGizmoDefaults>Restore gizmo defaults (ON / OFF / OFF)</ZCNCL_RestoreGizmoDefaults>
+  <ZCNCL_ConfirmRestoreGizmoDefaults>Restore new-child gizmo defaults to Reading ON, Wake OFF and Food OFF? Existing children are unchanged.</ZCNCL_ConfirmRestoreGizmoDefaults>
+  <ZCNCL_GizmoDefaultsRestored>New-child gizmo defaults restored.</ZCNCL_GizmoDefaultsRestored>
+  <ZCNCL_InvalidNumber>Invalid input. Applied value: </ZCNCL_InvalidNumber>
+  <ZCNCL_WakeSummaryLearning>Sleeping children attempt to wake when their Learning is {0}% or lower.</ZCNCL_WakeSummaryLearning>
+  <ZCNCL_WakeSummaryRest>Auto-wake only activates when the child’s Rest is at least {0}%.</ZCNCL_WakeSummaryRest>
+  <ZCNCL_WakeSummaryCooldown>After a successful auto-wake, a {0}-hour in-game cooldown applies. Further auto-wake attempts for that child are restricted during this cooldown.</ZCNCL_WakeSummaryCooldown>
+  <ZCNCL_WakeSummaryCooldownZero>There is no timed cooldown after a successful auto-wake. Failed-attempt retry safeguards still apply.</ZCNCL_WakeSummaryCooldownZero>
+  <ZCNCL_FoodSummaryStart>Children with a Food level of {0}% or lower go to eat.</ZCNCL_FoodSummaryStart>
+  <ZCNCL_FoodSummaryNoInterrupt>Auto-eating does not interrupt the child’s current activity (learning, work, sleep, etc.).</ZCNCL_FoodSummaryNoInterrupt>
+  <ZCNCL_FoodSummaryQueuedCommands>Auto-eating does not take priority over queued commands.</ZCNCL_FoodSummaryQueuedCommands>
+  <ZCNCL_FoodSummaryPolicy>Auto-eating follows the food policy. Only foods permitted by the food policy are selected.</ZCNCL_FoodSummaryPolicy>
+  <ZCNCL_GrowthGizmoLearningDesires>Show current learning desire icons above the vanilla growth gizmo</ZCNCL_GrowthGizmoLearningDesires>
+</LanguageData>

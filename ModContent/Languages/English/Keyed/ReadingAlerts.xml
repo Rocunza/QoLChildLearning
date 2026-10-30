@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RAL_ReadingActiveOne>Reading available: {0}</RAL_ReadingActiveOne>
+  <RAL_ReadingActiveTwo>Reading available: {0}, {1}</RAL_ReadingActiveTwo>
+  <RAL_ReadingActiveMany>Reading available: {0} and {1} more</RAL_ReadingActiveMany>
+  <RAL_ReadingIconTooltip>Reading learning desire active</RAL_ReadingIconTooltip>
+</LanguageData>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <ZCNCL_CurrentValue>현재 값: </ZCNCL_CurrentValue>
+  <ZCNCL_AlertsTitle>독서 학습욕구 알림 및 초상화 아이콘</ZCNCL_AlertsTitle>
+  <ZCNCL_ShowReadingIcon>초상화 독서 아이콘 표시</ZCNCL_ShowReadingIcon>
+  <ZCNCL_LargeReadingIcon>초상화 독서 아이콘 크게 표시</ZCNCL_LargeReadingIcon>
+  <ZCNCL_ReadingIconSizeNormal>기본 크기 (기본값)</ZCNCL_ReadingIconSizeNormal>
+  <ZCNCL_ReadingIconSizeLarge>크게 표시</ZCNCL_ReadingIconSizeLarge>
+  <ZCNCL_ReadingIconPosition>독서 아이콘 위치</ZCNCL_ReadingIconPosition>
+  <ZCNCL_PositionTopRight>오른쪽 위 (기본값)</ZCNCL_PositionTopRight>
+  <ZCNCL_PositionTopLeft>왼쪽 위</ZCNCL_PositionTopLeft>
+  <ZCNCL_PositionBottomRight>오른쪽 아래</ZCNCL_PositionBottomRight>
+  <ZCNCL_PositionBottomLeft>왼쪽 아래</ZCNCL_PositionBottomLeft>
+  <ZCNCL_PositionCenter>중앙</ZCNCL_PositionCenter>
+  <ZCNCL_PositionLowerCenter>아래쪽 중앙 (가슴 부근)</ZCNCL_PositionLowerCenter>
+  <ZCNCL_PlayReadingSound>독서 알림음</ZCNCL_PlayReadingSound>
+  <ZCNCL_NotificationSound>알림 소리</ZCNCL_NotificationSound>
+  <ZCNCL_PreviewSound>선택한 소리 미리 듣기</ZCNCL_PreviewSound>
+  <ZCNCL_ShowReadingMessage>독서 알림 메시지</ZCNCL_ShowReadingMessage>
+  <ZCNCL_ReadingMessageDescription>소리와 별개로 설정됩니다. 독서 학습욕구가 새로 활성화될 때만 알립니다. 같은 검사 주기에 여러 아이에게 발생하면 메시지를 하나로 묶습니다. 편지 팝업이나 강제 일시정지는 없습니다.</ZCNCL_ReadingMessageDescription>
+  <ZCNCL_LearningTitle>아동 학습</ZCNCL_LearningTitle>
+  <ZCNCL_ShowLearningPercent>초상화 이름 대신 학습 수치 표시</ZCNCL_ShowLearningPercent>
+  <ZCNCL_LearningPercentDescription>학습욕구가 있는 아동에게만 적용됩니다. 0~100의 정수를 내림 표시하며 실제 이름은 변경하지 않습니다.</ZCNCL_LearningPercentDescription>
+  <ZCNCL_LearningNumberSize>학습 숫자 크기: </ZCNCL_LearningNumberSize>
+  <ZCNCL_DefaultSuffix>(기본값)</ZCNCL_DefaultSuffix>
+  <ZCNCL_LearningNumberSizeDescription>100%(기본값) / 125% / 150%. 현재 100%는 기존 기본 글자 크기와 동일합니다. 초상화가 매우 작으면 큰 글자가 겹칠 수 있습니다.</ZCNCL_LearningNumberSizeDescription>
+  <ZCNCL_HighlightLearning>학습 중 숫자 강조</ZCNCL_HighlightLearning>
+  <ZCNCL_HighlightLearningDescription>학습 수치가 100%여도 실제 학습 중이면 강조합니다. 학습을 멈춘 뒤 약 120틱 후 기본 색으로 돌아옵니다.</ZCNCL_HighlightLearningDescription>
+  <ZCNCL_HighlightColor>학습 중 숫자 강조 색상</ZCNCL_HighlightColor>
+  <ZCNCL_ColorYellow>황금빛 노랑</ZCNCL_ColorYellow>
+  <ZCNCL_ColorCyan>밝은 청록 (기본값)</ZCNCL_ColorCyan>
+  <ZCNCL_ColorMagenta>밝은 자홍</ZCNCL_ColorMagenta>
+  <ZCNCL_ColorOrange>선명한 주황</ZCNCL_ColorOrange>
+  <ZCNCL_ColorBlue>연한 파랑</ZCNCL_ColorBlue>
+  <ZCNCL_AutoWakeTitle>아동 자동 기상</ZCNCL_AutoWakeTitle>
+  <ZCNCL_AutoWakeToggle>자동 기상</ZCNCL_AutoWakeToggle>
+  <ZCNCL_AutoWakeDescription>잠자는 비징집 아동만 대상입니다. 의료용 침대·쓰러짐·정신이상 상태는 제외합니다.</ZCNCL_AutoWakeDescription>
+  <ZCNCL_WakeLearningThreshold>학습 수치 ≤ (%) [0~100]</ZCNCL_WakeLearningThreshold>
+  <ZCNCL_MinimumRestThreshold>최소 수면 수치(%) [38~100]</ZCNCL_MinimumRestThreshold>
+  <ZCNCL_MinimumRestDescription>수면 수치는 38.0% 이상으로 설정할 수 있습니다. 의료 안전 검사는 유지됩니다.</ZCNCL_MinimumRestDescription>
+  <ZCNCL_WakeCooldown>기상 쿨다운(게임 시간) [0~24]</ZCNCL_WakeCooldown>
+  <ZCNCL_WakeCooldownDescription>0시간은 기상 성공 후 쿨다운만 없앱니다. 실패 재시도 보호는 유지됩니다.</ZCNCL_WakeCooldownDescription>
+  <ZCNCL_EarlyWakeDescription>바닐라가 다시 잠을 선택하면 학습 수치가 90% 미만이 될 때까지 추가 기상이 보류될 수 있습니다. 이 설정은 기상을 시도할 뿐, 깨어 있는 상태를 보장하지 않습니다.</ZCNCL_EarlyWakeDescription>
+  <ZCNCL_AutoEatTitle>아동 독립 자동 식사 (EF1)</ZCNCL_AutoEatTitle>
+  <ZCNCL_AutoEatToggle>자동 식사 보조 (작업 전환 시)</ZCNCL_AutoEatToggle>
+  <ZCNCL_AutoEatDescription>현재 작업을 중단하지 않고, 다음 작업 선택 시 식사를 우선합니다.</ZCNCL_AutoEatDescription>
+  <ZCNCL_EatFoodThreshold>식사 우선: 허기 수치 ≤ (%) [34~100]</ZCNCL_EatFoodThreshold>
+  <ZCNCL_LegacyEatToggle>기존 방식: 모드 기상 직후 식사</ZCNCL_LegacyEatToggle>
+  <ZCNCL_LegacyEatDescription>기존 세이브를 위해 남겨 둔 기상 직후 식사 옵션입니다. 독립 자동 식사(EF1)가 활성화되면 EF1이 이 기능을 대신합니다.</ZCNCL_LegacyEatDescription>
+  <ZCNCL_DebugLogging>디버그 로그</ZCNCL_DebugLogging>
+  <ZCNCL_SoundTinyBell>작은 종소리</ZCNCL_SoundTinyBell>
+  <ZCNCL_SoundSubtleTick>가벼운 틱 소리</ZCNCL_SoundSubtleTick>
+  <ZCNCL_SoundClearAlert>또렷한 알림음</ZCNCL_SoundClearAlert>
+  <ZCNCL_SoundPositive>긍정 이벤트 알림 (기본값)</ZCNCL_SoundPositive>
+  <ZCNCL_SoundNeutral>중립 이벤트 알림</ZCNCL_SoundNeutral>
+  <ZCNCL_TabReadingAlerts>독서 알림</ZCNCL_TabReadingAlerts>
+  <ZCNCL_TabLearning>아동 학습</ZCNCL_TabLearning>
+  <ZCNCL_RestoreAlertsDefaults>독서 알림 기본값 복원</ZCNCL_RestoreAlertsDefaults>
+  <ZCNCL_RestoreLearningDefaults>학습 설정 기본값 복원</ZCNCL_RestoreLearningDefaults>
+  <ZCNCL_DisableAlertsFeatures>독서 알림 기능 모두 끄기</ZCNCL_DisableAlertsFeatures>
+  <ZCNCL_DisableLearningFeatures>학습 기능 모두 끄기</ZCNCL_DisableLearningFeatures>
+  <ZCNCL_ConfirmRestoreDefaults>이 탭의 설정만 기본값으로 복원하시겠습니까? 다른 탭의 설정은 유지됩니다.</ZCNCL_ConfirmRestoreDefaults>
+  <ZCNCL_ConfirmDisableFeatures>이 탭의 기능만 끄시겠습니까? 저장된 설정 수치와 다른 탭의 설정은 유지됩니다.</ZCNCL_ConfirmDisableFeatures>
+  <ZCNCL_DefaultsRestored>기본값을 복원하고 저장했습니다.</ZCNCL_DefaultsRestored>
+  <ZCNCL_FeaturesDisabled>기능을 끄고 저장했습니다.</ZCNCL_FeaturesDisabled>
+  <ZCNCL_IconPreviewTitle>독서 아이콘 미리보기</ZCNCL_IconPreviewTitle>
+  <ZCNCL_IconPreviewColonist>아동 예시</ZCNCL_IconPreviewColonist>
+  <ZCNCL_IconPreviewDisclaimer>표시 예시입니다. 실제 학습욕구는 변경되지 않습니다.</ZCNCL_IconPreviewDisclaimer>
+  <ZCNCL_IconPreviewDisabled>독서 아이콘 표시 꺼짐 (OFF).</ZCNCL_IconPreviewDisabled>
+  <ZCNCL_HighlightPreviewTitle>학습 강조 색상 미리보기</ZCNCL_HighlightPreviewTitle>
+  <ZCNCL_GizmoLabel>아동 관리</ZCNCL_GizmoLabel>
+  <ZCNCL_GizmoDescription>이 아동의 학습 보조 기능을 개별 설정합니다. 모드 전역 설정이 우선 적용됩니다.</ZCNCL_GizmoDescription>
+  <ZCNCL_GizmoReading>독서 아이콘·알림</ZCNCL_GizmoReading>
+  <ZCNCL_GizmoWake>자동 기상</ZCNCL_GizmoWake>
+  <ZCNCL_GizmoFood>자동 식사 보조</ZCNCL_GizmoFood>
+  <ZCNCL_GizmoGlobalNote>전역 허용: 여기서 켠 기능만 각 아동의 개별 기즈모에서 다시 켜거나 끌 수 있습니다.</ZCNCL_GizmoGlobalNote>
+  <ZCNCL_GizmoReadingLabel>독서 알림</ZCNCL_GizmoReadingLabel>
+  <ZCNCL_GizmoReadingDescription>독서 학습욕구가 발생하면 알림 메시지가 표시됩니다.&#10;&#10;독서 학습욕구가 활성화된 동안 초상화에 독서 아이콘이 표시됩니다.</ZCNCL_GizmoReadingDescription>
+  <ZCNCL_GizmoWakeLabel>자동 기상</ZCNCL_GizmoWakeLabel>
+  <ZCNCL_GizmoWakeDescription>잠든 아이의 학습 수치가 {0}% 이하이면 자동 기상을 시도합니다.&#10;&#10;자동 기상이 발동하는 세부 조건은 모드 설정에서 확인할 수 있습니다.&#10;&#10;학습 수치 기준은 모드 설정에서 변경할 수 있습니다.</ZCNCL_GizmoWakeDescription>
+  <ZCNCL_GizmoFoodLabel>자동 식사</ZCNCL_GizmoFoodLabel>
+  <ZCNCL_GizmoFoodDescription>허기 수치가 {0}% 이하인 아이는 식사를 하러 갑니다.&#10;&#10;자동 식사가 발동하는 세부 조건은 모드 설정에서 확인할 수 있습니다.&#10;&#10;허기 수치 기준은 모드 설정에서 변경할 수 있습니다.</ZCNCL_GizmoFoodDescription>
+  <ZCNCL_TabGizmoDefaults>기즈모 기본값</ZCNCL_TabGizmoDefaults>
+  <ZCNCL_GizmoDefaultsTitle>아동별 기즈모 초기 설정</ZCNCL_GizmoDefaultsTitle>
+  <ZCNCL_GizmoDefaultsScope>신규 아동에게만 적용됩니다. 기존 아동 설정은 유지되며 전역 OFF 항목은 기즈모에서 숨겨집니다.</ZCNCL_GizmoDefaultsScope>
+  <ZCNCL_GizmoDefaultReading>독서 아이콘·알림</ZCNCL_GizmoDefaultReading>
+  <ZCNCL_GizmoDefaultReadingHint>아이콘·알림음·메시지를 묶어 관리합니다. 각 기능은 전역 옵션에서도 허용되어야 합니다.</ZCNCL_GizmoDefaultReadingHint>
+  <ZCNCL_GizmoDefaultWake>자동 기상</ZCNCL_GizmoDefaultWake>
+  <ZCNCL_GizmoDefaultWakeHint>새 아동은 이 항목이나 해당 아동의 기즈모에서 켜기 전까지 자동 기상이 작동하지 않습니다.</ZCNCL_GizmoDefaultWakeHint>
+  <ZCNCL_GizmoDefaultFood>자동 식사 보조</ZCNCL_GizmoDefaultFood>
+  <ZCNCL_GizmoDefaultFoodHint>OFF여도 바닐라 자동 식사는 정상 작동합니다.</ZCNCL_GizmoDefaultFoodHint>
+  <ZCNCL_GizmoDefaultsGlobalPriority>모드 전역 기능 설정이 항상 우선합니다. 이 기본값 변경은 기존 아동에게 소급 적용되지 않습니다.</ZCNCL_GizmoDefaultsGlobalPriority>
+  <ZCNCL_RestoreGizmoDefaults>기즈모 기본값 복원 (ON / OFF / OFF)</ZCNCL_RestoreGizmoDefaults>
+  <ZCNCL_ConfirmRestoreGizmoDefaults>신규 아동의 기본값을 독서 ON, 자동 기상 OFF, 자동 식사 OFF로 복원할까요? 기존 아동은 변경되지 않습니다.</ZCNCL_ConfirmRestoreGizmoDefaults>
+  <ZCNCL_GizmoDefaultsRestored>신규 아동 기즈모 기본값을 복원했습니다.</ZCNCL_GizmoDefaultsRestored>
+  <ZCNCL_InvalidNumber>입력값이 올바르지 않습니다. 현재 적용값: </ZCNCL_InvalidNumber>
+  <ZCNCL_WakeSummaryLearning>잠든 아이는 학습 수치가 {0}% 이하일 때 기상을 시도합니다.</ZCNCL_WakeSummaryLearning>
+  <ZCNCL_WakeSummaryRest>자동 기상 기능은 아이의 수면 수치가 {0}% 이상일 때만 작동합니다.</ZCNCL_WakeSummaryRest>
+  <ZCNCL_WakeSummaryCooldown>자동 기상 성공 시 게임 내 {0}시간의 쿨타임이 적용됩니다. 쿨타임 동안 해당 아이의 추가 자동 기상은 제한됩니다.</ZCNCL_WakeSummaryCooldown>
+  <ZCNCL_WakeSummaryCooldownZero>자동 기상 성공 시 게임시간 기준 쿨타임이 적용되지 않습니다. (실패 후 재시도 제한은 유지)</ZCNCL_WakeSummaryCooldownZero>
+  <ZCNCL_FoodSummaryStart>허기 수치가 {0}% 이하인 아이는 식사를 하러 갑니다.</ZCNCL_FoodSummaryStart>
+  <ZCNCL_FoodSummaryNoInterrupt>자동 식사 기능은 아이의 현재 행동을 중단하지 않습니다. (학습, 작업, 수면 등)</ZCNCL_FoodSummaryNoInterrupt>
+  <ZCNCL_FoodSummaryQueuedCommands>자동 식사 기능은 예약된 명령보다 우선하지 않습니다.</ZCNCL_FoodSummaryQueuedCommands>
+  <ZCNCL_FoodSummaryPolicy>자동 식사 기능은 식량 정책을 따릅니다. 식량 정책에서 허용된 음식만 선택합니다.</ZCNCL_FoodSummaryPolicy>
+  <ZCNCL_GrowthGizmoLearningDesires>바닐라 성장 기즈모 위에 현재 학습욕구 아이콘 표시</ZCNCL_GrowthGizmoLearningDesires>
+</LanguageData>

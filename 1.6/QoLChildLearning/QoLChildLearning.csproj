@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEC467FE-90EB-48B4-945D-C2D868176780}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QoLChildLearning</RootNamespace>
+    <AssemblyName>QoLChildLearning</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <!-- Local paths are deliberately kept out of source control. Copy RimWorld.local.props.example to RimWorld.local.props. -->
+  <Import Project="$(MSBuildProjectDirectory)\..\RimWorld.local.props" Condition="Exists('$(MSBuildProjectDirectory)\..\RimWorld.local.props')" />
+  <PropertyGroup>
+    <!-- Command-line /p: properties, environment variables or RimWorld.local.props can supply these. -->
+    <RimWorldManagedDir Condition="'$(RimWorldManagedDir)' == '' and '$(RimWorldDir)' != ''">$(RimWorldDir)\RimWorldWin64_Data\Managed</RimWorldManagedDir>
+    <HarmonyDllPath Condition="'$(HarmonyDllPath)' == '' and '$(HarmonyDir)' != ''">$(HarmonyDir)\0Harmony.dll</HarmonyDllPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDllPath)</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(RimWorldManagedDir)\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(RimWorldManagedDir)\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(RimWorldManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\ChildLearningMod.cs" />
+    <Compile Include="Diagnostics\ChildLearningDebug.cs" />
+    <Compile Include="Gizmos\ChildGizmoPolicy.cs" />
+    <Compile Include="Gizmos\ChildLearningGizmo.cs" />
+    <Compile Include="Gizmos\GrowthGizmoDesiresOverlay.cs" />
+    <Compile Include="LearningUI\ChildAutoWake.cs" />
+    <Compile Include="LearningUI\ChildDraftFoodTrace.cs" />
+    <Compile Include="LearningUI\ChildIndependentFood.cs" />
+    <Compile Include="LearningUI\ChildLearningLabelToggle.cs" />
+    <Compile Include="LearningUI\ChildWakeFood.cs" />
+    <Compile Include="LearningUI\ChildWakeOutcome.cs" />
+    <Compile Include="LearningUI\ChildWakeRules.cs" />
+    <Compile Include="LearningUI\ChildWakeTrace.cs" />
+    <Compile Include="LearningUI\LearningColonistBarFront.cs" />
+    <Compile Include="LearningUI\LearningColonistBarLabel.cs" />
+    <Compile Include="LearningUI\LearningColonistBarScale.cs" />
+    <Compile Include="LearningUI\LearningHighlightPalette.cs" />
+    <Compile Include="LearningUI\LearningProgressHighlight.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadingAlerts\ReadingColonistBarIcon.cs" />
+    <Compile Include="ReadingAlerts\ReadingIconSizing.cs" />
+    <Compile Include="ReadingAlerts\ReadingLearningUtility.cs" />
+    <Compile Include="ReadingAlerts\ReadingSoundUtility.cs" />
+    <Compile Include="ReadingAlerts\ReadingStatusTracker.cs" />
+    <Compile Include="Settings\ChildLearningSettings.cs" />
+    <Compile Include="Settings\ChildLearningSettingsData.cs" />
+    <Compile Include="Settings\ChildLearningSettingsPresets.cs" />
+    <Compile Include="Settings\ReadingIconSettingsPreview.cs" />
+    <Compile Include="Settings\LearningHighlightSettingsPreview.cs" />
+    <Compile Include="Settings\ChildLearningSettingsUI.cs" />
+    <Compile Include="Settings\SettingsTypography.cs" />
+  </ItemGroup>
+  <!-- The original RimWorld and Harmony game libraries are used only as references; never copied into outputs. -->
+  <Target Name="ValidateRimWorld16References" BeforeTargets="ResolveReferences">
+    <Error Condition="'$(RimWorldManagedDir)' == ''" Text="QoL: Child Learning: RimWorldManagedDir is not configured. Copy RimWorld.local.props.example to RimWorld.local.props and edit RimWorldDir, or pass /p:RimWorldDir=... (see BUILDING.md)." />
+    <Error Condition="'$(HarmonyDllPath)' == ''" Text="QoL: Child Learning: HarmonyDllPath is not configured. Set HarmonyDllPath to your Harmony 1.6 0Harmony.dll in RimWorld.local.props (see BUILDING.md)." />
+    <Error Condition="!Exists('$(RimWorldManagedDir)\Assembly-CSharp.dll')" Text="QoL: Child Learning: Assembly-CSharp.dll not found in '$(RimWorldManagedDir)'. Verify RimWorld 1.6 Windows install directory." />
+    <Error Condition="!Exists('$(RimWorldManagedDir)\UnityEngine.CoreModule.dll')" Text="QoL: Child Learning: UnityEngine.CoreModule.dll not found in '$(RimWorldManagedDir)'." />
+    <Error Condition="!Exists('$(RimWorldManagedDir)\UnityEngine.IMGUIModule.dll')" Text="QoL: Child Learning: UnityEngine.IMGUIModule.dll not found in '$(RimWorldManagedDir)'." />
+    <Error Condition="!Exists('$(RimWorldManagedDir)\UnityEngine.InputLegacyModule.dll')" Text="QoL: Child Learning: UnityEngine.InputLegacyModule.dll not found in '$(RimWorldManagedDir)'." />
+    <Error Condition="!Exists('$(RimWorldManagedDir)\UnityEngine.TextRenderingModule.dll')" Text="QoL: Child Learning: UnityEngine.TextRenderingModule.dll not found in '$(RimWorldManagedDir)'." />
+    <Error Condition="!Exists('$(HarmonyDllPath)')" Text="QoL: Child Learning: 0Harmony.dll not found at '$(HarmonyDllPath)'. Check HarmonyDllPath." />
+  </Target>
+<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

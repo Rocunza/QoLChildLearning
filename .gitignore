@@ -1,0 +1,22 @@
+# Per-machine game paths / IDE state
+**/.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+**/RimWorld.local.props
+**/RimWorld17.local.props
+*.log
+*.pdb
+
+# Build outputs and game libraries
+*.dll
+/dist/
+*.zip
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

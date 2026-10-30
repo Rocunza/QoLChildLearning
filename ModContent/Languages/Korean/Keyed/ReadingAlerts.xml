@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RAL_ReadingActiveOne>독서 가능: {0}</RAL_ReadingActiveOne>
+  <RAL_ReadingActiveTwo>독서 가능: {0}, {1}</RAL_ReadingActiveTwo>
+  <RAL_ReadingActiveMany>독서 가능: {0} 외 {1}명</RAL_ReadingActiveMany>
+  <RAL_ReadingIconTooltip>독서 학습욕구 활성화 중</RAL_ReadingIconTooltip>
+</LanguageData>
